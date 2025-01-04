@@ -1,0 +1,33 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family:'Times New Roman', Times, serif;
+}
+
+
+.h0-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(23, 23, 37);
+    
+}
+
+.head {
+    display: flex;
+}
+
+.h1-container-l, 
+.h1-container-r {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.link {
+   display: flex;
+   flex-direction: column;
+    align-items: start;
+}
