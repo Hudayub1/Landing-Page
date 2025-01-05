@@ -1,33 +1,66 @@
 body {
-    display: flex;
-    flex-direction: column;
     font-family:'Times New Roman', Times, serif;
 }
 
-
+/* header */
 .h0-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
     color: white;
-    background-color: rgb(23, 23, 37);
-    
+    background-color: rgb(23, 23, 37);  
+    padding-left: 100px;
+    padding-right: 100px;
 }
+
 
 .head {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.h1-container-l, 
-.h1-container-r {
+.logo {
+  font-size: 24px;
+  font-weight: 900;  
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+   text-decoration: none; 
+   color: white;
+   font-size: small;
+}
+
+
+
+
+
+
+/* Content */
+.h2-container {
     display: flex;
     flex-direction: column;
-    align-items: end;
-
+    align-items: start;
+    justify-content: center;
+    flex-shrink: 1;
+    gap: 15px;
 }
 
-.link {
-   display: flex;
-   flex-direction: column;
-    align-items: start;
+#life {
+    font-weight: 900;
+    font-size: 44px;
+    flex-wrap: wrap;
+}
+
+#game {
+    font-size: 18px;
+}
+
+.h3-container {
+    display: flex;
+    justify-content: space-between;
+    
 }
