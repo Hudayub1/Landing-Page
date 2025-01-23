@@ -64,3 +64,22 @@ a {
     justify-content: space-between;
     
 }
+
+.content-0 {
+    padding: 50px;
+    
+    
+}
+
+.random-1 {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.card {
+    display: flex;
+    border-style:solid;
+    border-color: blue;
+    
+}
