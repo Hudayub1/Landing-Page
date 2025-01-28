@@ -5,7 +5,7 @@ body {
 /* header */
 .h0-container {
     color: white;
-    background-color: rgb(23, 23, 37);  
+    background-color: #1f2937;  
     padding-left: 100px;
     padding-right: 100px;
 }
@@ -32,6 +32,17 @@ a {
    text-decoration: none; 
    color: white;
    font-size: small;
+   font-weight: 300;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    font-weight: 300;
+    font-size: 18px;
+    border-radius: 5px;
+    border-color: white;
+    
 }
 
 
@@ -128,4 +139,40 @@ img {
     display: flex;
     padding-top: 50px;
     justify-content: center;
+}
+
+#content-2 {
+    padding: 50px;
+    margin: 100px;
+    color: white;
+    background-color: #3882f6;
+    border-radius: 5px;
+   
+    
+    
+    
+}
+
+.cta-force {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    justify-content: center;
+}
+
+.b-container {
+    display: flex;
+    justify-content: flex-end;
+    align-self: center;
+    
+
+}
+/* Footer content */
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color:#f9faf8 ;
+    justify-content: center;
+    padding: 20px;
 }
