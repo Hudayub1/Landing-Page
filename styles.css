@@ -1,5 +1,6 @@
 body {
     font-family:'Times New Roman', Times, serif;
+    flex: 1 1 0;
 }
 
 /* header */
@@ -94,6 +95,7 @@ button {
 .card-container {
    display: flex;
    gap: 30px;
+   justify-content: center;
  
 }
 
@@ -143,27 +145,25 @@ img {
 
 #content-2 {
     padding: 50px;
-    margin: 100px;
+    margin: 50px;
     color: white;
     background-color: #3882f6;
     border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
    
     
     
     
 }
 
-.cta-force {
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    justify-content: center;
-}
+
 
 .b-container {
     display: flex;
     justify-content: flex-end;
     align-self: center;
+    flex-shrink: 1;
     
 
 }
